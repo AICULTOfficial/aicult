@@ -1,21 +1,14 @@
-# AI CULT
+# AI CULT Website
 
-## AI • Web3 • Solana
+Official website for AI CULT.
 
-Welcome to the official AI CULT GitHub repository.
-
-### Vision
-Building the future through Artificial Intelligence, Web3, and decentralized innovation.
-
-### Ecosystem
-- AI CULT Token
+## Features
+- Home
+- About
 - AI Wallet
-- AI Marketplace
+- AI Token
 - AI Academy
-- AI Agents
+- Whitepaper
+- Contact
 
-🌐 Website: https://aicult.in
-
-📢 Telegram: https://t.me/AICULTOfficial
-
-Follow us and contribute to the future of AI.
+Status: Under Development
