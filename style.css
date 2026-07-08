@@ -1,0 +1,112 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b1020;
+color:white;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0b1020,#121d40);
+}
+
+header h1{
+font-size:70px;
+color:#00e5ff;
+}
+
+header p{
+font-size:24px;
+margin:20px 0;
+color:#ddd;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#00e5ff;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#00b8d4;
+transform:scale(1.05);
+}
+
+section{
+padding:80px 0;
+}
+
+h2{
+font-size:40px;
+margin-bottom:25px;
+color:#00e5ff;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:#151d35;
+padding:30px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #00e5ff55;
+}
+
+.card h3{
+margin:15px 0;
+}
+
+footer{
+padding:25px;
+text-align:center;
+background:#111;
+color:#aaa;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:45px;
+}
+
+header p{
+font-size:18px;
+}
+
+h2{
+font-size:30px;
+}
+
+}
